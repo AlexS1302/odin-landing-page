@@ -4,7 +4,6 @@ body {
 .blue-container {
     background-color: #1F2937;
     display: flex;
-    flex-direction: column;
     font-family: "Roboto", sans-serif;
     height: 200px;
     margin: 0;
@@ -14,7 +13,7 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -23,15 +22,17 @@ body {
 .header {
     font-size: 24px;
     color: #F9FAF8;
+    white-space: nowrap;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .h-link{
     font-size: 18px;
     color:#E5E7EB;
-}
-
-.image {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
+    margin-left: 10px; /* Adjust the value as needed */
 }
