@@ -5,7 +5,7 @@ body {
     background-color: #1F2937;
     display: flex;
     font-family: "Roboto", sans-serif;
-    height: auto;
+    height: 250px;
     margin: 0;
     flex-direction: column;
     
@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-    font-size: 16px;
+    font-size: 18px;
     color: #F9FAF8;
     white-space: nowrap;
 }
@@ -33,13 +33,15 @@ body {
 }
 
 .h-link{
-    font-size: 10px;
+    font-size: 12px;
     color:#E5E7EB;
     margin-left: 10px; /* Adjust the value as needed */
 }
 
 .bottom {
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
     text-align: left;
     width: 80%;
     margin-left: auto;
@@ -47,16 +49,38 @@ body {
 }
 
 #hero-main-text {
-    font-size: 48px;
+    font-size: 25px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 #hero-subtext {
-    font-size: 18px;
+    font-size: 12px;
     color: #E5E7EB;
+    margin-top: -20px;
 }
 
 .button {
-    color: #3882F6;
+    padding:5px 20px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+}
+
+.bottom-text {
+    flex: 1;
+}
+
+.imagePlaceholder {
+    margin-left: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: grey;
+    padding-left: 40px;
 }
