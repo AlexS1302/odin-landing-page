@@ -133,3 +133,35 @@ body {
     font-size: 14px;
     color: #1F2937;
 }
+
+/* Third section of the page */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-bottom: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quoter {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
