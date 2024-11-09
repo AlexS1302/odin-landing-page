@@ -1,10 +1,14 @@
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
-.blue-container {
+
+/* First section of the page */
+
+.first {
     background-color: #1F2937;
     display: flex;
-    font-family: "Roboto", sans-serif;
+    
     height: 250px;
     margin: 0;
     flex-direction: column;
@@ -83,4 +87,49 @@ body {
     border: 1px solid black;
     background-color: grey;
     padding-left: 40px;
+}
+
+/* Second section of the page */
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.random-header {
+    font-weight: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.pic-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.random-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.placeholder {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+}
+
+.random-pic p{
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    color: #1F2937;
 }
